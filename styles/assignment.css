@@ -12,6 +12,32 @@
   font-optical-sizing: auto;
 }
 
+#banner .banner-container{
+    background-image: url(../assets/hero-bg.png);
+    /* height: 674px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    margin-top: 16px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+#banner .banner-content {
+    text-align: center;
+    width: 85%;
+    max-width: 1360px;
+}
+
+.color-white{
+    color: #ffffff;
+}
+
+.color-green{
+    color: #30B868;
+}
 
 
 
@@ -62,3 +88,38 @@ button:hover{
     background-color: black;
     color: white;
 }
+
+.btn-early{
+    background-color: #ffffff;
+    color: #30B868;
+    padding: 8px 34px;
+    border-radius: 1000px;
+    margin-top: 115px;
+    margin-bottom: 16px;
+}
+
+#banner h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+/* .banner-heading{
+    margin-top: 163px;
+} */
+ #banner p{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 780px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+ }
+
+ .banner-btns{
+    margin-bottom: 180px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+ }
+
