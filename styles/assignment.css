@@ -63,8 +63,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
-    max-width: 1360px;
+    /* padding-left: 120px;
+    padding-right: 120px; */
+    width: 90%;
+    /* width: 85%; */
+    /* max-width: 1360px; */
 
 }
 
@@ -83,6 +86,15 @@ nav .menu a {
     color: black;
 }
 
+nav .menu a:hover {
+    color: rgb(6, 87, 15);
+}
+
+a:hover {
+
+    color: red;
+}
+
 .btn {
     background-color: #30B868;
     color: white;
@@ -93,6 +105,10 @@ nav .menu a {
     padding: 12px 16px;
     cursor: pointer;
 }
+
+/* a:hover{
+    color: rgb(252, 252, 252);
+} */
 
 button:hover {
     background-color: black;
@@ -111,7 +127,7 @@ button:hover {
 #banner h1 {
     font-size: 72px;
     font-weight: bold;
-    
+
 }
 
 /* .banner-heading{
@@ -214,7 +230,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 100px;
     margin: 0 auto;
     /* margin: 0 120px; */
     width: 85%;
@@ -322,21 +338,22 @@ button:hover {
 
 }
 
-#footer-container{
+#footer-container {
     background-color: #001931;
     width: 100%;
     padding: 120px 120px 30px 120px;
-    
-} 
+
+}
+
 .footer-content {
     /* display: flex; */
     /* display: flex; */
     /* justify-content: space-between ; */
     /* margin-top: 120px; */
-    
+
 }
 
-.logo-links {
+#footer-container .logo-links {
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
@@ -346,19 +363,19 @@ button:hover {
     /* margin-top: 120px; */
 }
 
-.social h5 {
+#footer-container .social h5 {
     color: white;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 16px;
 }
 
-.social img{
+#footer-container .social img {
     margin-right: 12px;
 
 }
 
-.copywrite hr{
+#footer-container.copywrite hr {
     margin-top: 80px;
     margin-bottom: 30px;
     /* color: #8f1212; */
@@ -366,7 +383,8 @@ button:hover {
     /* border-width: 1px; */
     /* border: 1px solid; */
 }
-.copywrite p{
+
+.copywrite p {
     color: white;
     font-size: 16px;
     text-align: center;
