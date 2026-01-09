@@ -375,7 +375,7 @@ button:hover {
 
 }
 
-#footer-container.copywrite hr {
+#footer-container .copywrite hr {
     margin-top: 80px;
     margin-bottom: 30px;
     /* color: #8f1212; */
