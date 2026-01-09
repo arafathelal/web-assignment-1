@@ -175,14 +175,14 @@ button:hover {
 
 }
 
-#notes .notes-card-container .notes-card {
+/* #notes .notes-card-container .notes-card {
 
 
     /* flex: 1; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* border: 1px solid red; */
 
-}
+/* } */ */
 
 .notes-card img {
     margin-top: 70px;
@@ -279,4 +279,44 @@ button:hover {
     font-size: 16px;
     font-weight: medium;
     padding-top: 16px;
+}
+
+#challenge .challenge-container{
+    /* margin-top: 120px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+    background-color: #f7f6f2 ;
+    width: 90%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#challenge .challenge-container .ready-msg h2{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#challenge .challenge-container .ready-msg p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    /* margin-bottom: 24px; */
+}
+
+#challenge .challenge-container .early-msg .btn {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+#challenge .challenge-container .early-msg p{
+    font-size: 16px;
+    color: #627382;
+    /* line-height: 24px; */
+    margin-bottom: 80px;
+
 }
