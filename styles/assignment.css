@@ -7,12 +7,12 @@
 
 /* shared style */
 
-.font-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-#banner .banner-container{
+#banner .banner-container {
     background-image: url(../assets/hero-bg.png);
     /* height: 674px; */
     background-repeat: no-repeat;
@@ -33,11 +33,11 @@
     max-width: 1360px;
 }
 
-.color-white{
+.color-white {
     color: #ffffff;
 }
 
-.color-green{
+.color-green {
     color: #30B868;
 }
 
@@ -53,19 +53,19 @@
 
 /* main style */
 
-header{
+header {
     background-color: #ffffff;
     padding-top: 50px;
 }
 
-nav{
+nav {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 85%;
     max-width: 1360px;
-     
+
 }
 
 nav .menu {
@@ -73,11 +73,11 @@ nav .menu {
     list-style: none;
     gap: 32px;
     align-items: center;
-   
+
 }
 
-nav .menu a{
-     text-decoration: none;
+nav .menu a {
+    text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     color: black;
@@ -94,12 +94,12 @@ nav .menu a{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: black;
     color: white;
 }
 
-.btn-early{
+.btn-early {
     background-color: #ffffff;
     color: #30B868;
     padding: 8px 34px;
@@ -108,39 +108,42 @@ button:hover{
     margin-bottom: 16px;
 }
 
-#banner h1{
+#banner h1 {
     font-size: 72px;
     font-weight: bold;
     margin-bottom: 16px;
 }
+
 /* .banner-heading{
     margin-top: 163px;
 } */
- #banner p{
+#banner p {
     color: white;
     font-size: 18px;
     line-height: 24px;
     max-width: 780px;
     margin: 0 auto;
     margin-bottom: 16px;
- }
+}
 
- .banner-btns{
+.banner-btns {
     margin-bottom: 180px;
     display: flex;
     gap: 20px;
     justify-content: center;
-    
- }
 
- #notes .notes-header{
+}
+
+#notes .notes-header {
     text-align: center;
 }
+
 .notes-header p {
     color: #627382;
     font-size: 16px;
 }
-.notes-header h1{
+
+.notes-header h1 {
     margin-top: 70px;
     margin-bottom: 16px;
     color: #001931;
@@ -154,11 +157,11 @@ button:hover{
 } */
 
 .notes-card-container {
-     margin-left: 120px;
+    margin-left: 120px;
     margin-right: 120px;
 }
 
-#notes .notes-card-container{
+#notes .notes-card-container {
     /* width: 85%; */
     /* max-width: 1360px; */
     display: flex;
@@ -172,30 +175,30 @@ button:hover{
 
 }
 
-#notes .notes-card-container .notes-card{
-    
-    
+#notes .notes-card-container .notes-card {
+
+
     /* flex: 1; */
     box-sizing: border-box;
     /* border: 1px solid red; */
 
 }
 
-.notes-card img{
+.notes-card img {
     margin-top: 70px;
     padding-left: 131px;
     padding-right: 131px;
     margin-bottom: 16px;
 }
 
-.notes-card-container h3{
+.notes-card-container h3 {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
     margin-bottom: 16px;
 }
 
-.notes-card-container p{
+.notes-card-container p {
     font-size: 16px;
     /* font-weight: 600; */
     color: #627362;
@@ -206,3 +209,74 @@ button:hover{
 }
 
 
+
+.brain-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+    /* margin: 0 120px; */
+    width: 85%;
+    /* width: 85%; */
+    /* max-width: 1360px; */
+
+
+}
+
+#brain {
+    /* display: flex; */
+    /* justify-content: center; */
+
+
+
+
+}
+
+.brain-container .knowledge-img {
+    /* display: flex; */
+    max-width: 600px;
+
+    /* margin-top: 120px; */
+}
+
+
+.brain-info {
+    /* display: flex;
+    justify-content: center; */
+    max-width: 700px;
+}
+
+.brain-info .main-info h6 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.brain-info .main-info h2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    /* margin-bottom: 16px; */
+
+}
+
+.brain-info .main-info p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 500px;
+}
+
+.brain-info .sub-info {
+    margin-top: 40px;
+}
+
+.brain-info .sub-info h5 {
+    color: #001931;
+    font-size: 16px;
+    font-weight: medium;
+    padding-top: 16px;
+}
