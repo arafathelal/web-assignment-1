@@ -55,7 +55,7 @@
 
 header {
     background-color: #ffffff;
-    padding-top: 50px;
+    padding-top: 16px;
 }
 
 nav {
@@ -111,18 +111,19 @@ button:hover {
 #banner h1 {
     font-size: 72px;
     font-weight: bold;
-    margin-bottom: 16px;
+    
 }
 
 /* .banner-heading{
     margin-top: 163px;
 } */
 #banner p {
+    margin-top: 16px;
     color: white;
     font-size: 18px;
     line-height: 24px;
-    max-width: 780px;
-    margin: 0 auto;
+    /* max-width: 780px; */
+    /* margin: 0 auto; */
     margin-bottom: 16px;
 }
 
@@ -179,12 +180,11 @@ button:hover {
 
 
     /* flex: 1; */
-    /* box-sizing: border-box; */
-    /* border: 1px solid red; */
+/* box-sizing: border-box; */
+/* border: 1px solid red; */
 
-/* } */ */
-
-.notes-card img {
+/* } */
+*/ .notes-card img {
     margin-top: 70px;
     padding-left: 131px;
     padding-right: 131px;
@@ -281,27 +281,28 @@ button:hover {
     padding-top: 16px;
 }
 
-#challenge .challenge-container{
+#challenge .challenge-container {
     /* margin-top: 120px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 120px auto;
-    background-color: #f7f6f2 ;
+    background-color: #f7f6f2;
     width: 90%;
     /* border: 1px solid red; */
     text-align: center;
 }
 
-#challenge .challenge-container .ready-msg h2{
+#challenge .challenge-container .ready-msg h2 {
     margin-top: 80px;
     font-size: 40px;
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
 }
-#challenge .challenge-container .ready-msg p{
+
+#challenge .challenge-container .ready-msg p {
     font-size: 16px;
     color: #627382;
     line-height: 24px;
@@ -313,10 +314,73 @@ button:hover {
     margin-bottom: 16px;
 }
 
-#challenge .challenge-container .early-msg p{
+#challenge .challenge-container .early-msg p {
     font-size: 16px;
     color: #627382;
     /* line-height: 24px; */
     margin-bottom: 80px;
 
+}
+
+#footer-container{
+    background-color: #001931;
+    width: 100%;
+    padding: 120px 120px 30px 120px;
+    
+} 
+.footer-content {
+    /* display: flex; */
+    /* display: flex; */
+    /* justify-content: space-between ; */
+    /* margin-top: 120px; */
+    
+}
+
+.logo-links {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: auto; */
+    /* gap: 200px; */
+    /* margin-top: 120px; */
+}
+
+.social h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.social img{
+    margin-right: 12px;
+
+}
+
+.copywrite hr{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    /* color: #8f1212; */
+    border-color: #fafafa;
+    /* border-width: 1px; */
+    /* border: 1px solid; */
+}
+.copywrite p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.btn-trans {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    /* border: none; */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    cursor: pointer;
 }
